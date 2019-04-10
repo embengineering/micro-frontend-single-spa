@@ -4,7 +4,7 @@ import {registerApplication, start} from 'single-spa';
 
 registerApplication(
   'root',
-  () => import('./root.app.js'),
+  () => import('./tally/tally.app.js'),
   () => true
 );
 

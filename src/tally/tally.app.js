@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import singleSpaReact from 'single-spa-react';
-import TallyWrapper from './tally/TallyWrapper';
+import TallyWrapper from './TallyWrapper';
 
 const reactLifecycles = singleSpaReact({
   React,
