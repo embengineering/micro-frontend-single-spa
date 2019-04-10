@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.cb86fd54.chunk.css",
-  "main.js": "/static/js/main.f6abda34.chunk.js",
-  "main.js.map": "/static/js/main.f6abda34.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.21a2f0a9.js",
-  "runtime~main.js.map": "/static/js/runtime~main.21a2f0a9.js.map",
-  "static/js/2.37472d50.chunk.js": "/static/js/2.37472d50.chunk.js",
-  "static/js/2.37472d50.chunk.js.map": "/static/js/2.37472d50.chunk.js.map",
-  "static/js/3.0fe80087.chunk.js": "/static/js/3.0fe80087.chunk.js",
-  "static/js/3.0fe80087.chunk.js.map": "/static/js/3.0fe80087.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.dd1d2156608a2c0a2172d93d193b551d.js": "/precache-manifest.dd1d2156608a2c0a2172d93d193b551d.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.cb86fd54.chunk.css.map": "/static/css/main.cb86fd54.chunk.css.map"
+  "main.css": "/micro-frontend-single-spa/static/css/main.cb86fd54.chunk.css",
+  "main.js": "/micro-frontend-single-spa/static/js/main.5f4d12c9.chunk.js",
+  "main.js.map": "/micro-frontend-single-spa/static/js/main.5f4d12c9.chunk.js.map",
+  "runtime~main.js": "/micro-frontend-single-spa/static/js/runtime~main.ff57fbad.js",
+  "runtime~main.js.map": "/micro-frontend-single-spa/static/js/runtime~main.ff57fbad.js.map",
+  "static/js/2.37472d50.chunk.js": "/micro-frontend-single-spa/static/js/2.37472d50.chunk.js",
+  "static/js/2.37472d50.chunk.js.map": "/micro-frontend-single-spa/static/js/2.37472d50.chunk.js.map",
+  "static/js/3.0fe80087.chunk.js": "/micro-frontend-single-spa/static/js/3.0fe80087.chunk.js",
+  "static/js/3.0fe80087.chunk.js.map": "/micro-frontend-single-spa/static/js/3.0fe80087.chunk.js.map",
+  "index.html": "/micro-frontend-single-spa/index.html",
+  "precache-manifest.795e7f68dc4fc1b39be3c6c7f9dd8e89.js": "/micro-frontend-single-spa/precache-manifest.795e7f68dc4fc1b39be3c6c7f9dd8e89.js",
+  "service-worker.js": "/micro-frontend-single-spa/service-worker.js",
+  "static/css/main.cb86fd54.chunk.css.map": "/micro-frontend-single-spa/static/css/main.cb86fd54.chunk.css.map"
 }
