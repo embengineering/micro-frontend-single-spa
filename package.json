@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "single-spa": "^4.3.0",
+    "single-spa-react": "^2.10.0"
   },
   "scripts": {
     "start": "react-scripts start",
