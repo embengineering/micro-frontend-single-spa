@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/micro-frontend-single-spa/static/css/main.cb86fd54.chunk.css"
   },
   {
-    "revision": "598f6ce16518d71361d187797dbe18f2",
+    "revision": "1a15fe54742226d8fc5e23d9b4fe83b3",
     "url": "/micro-frontend-single-spa/index.html"
   }
 ];
