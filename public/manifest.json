@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "micro-frontend-single-spa",
+  "name": "Micro Frontend Single SPA",
   "icons": [
     {
       "src": "favicon.ico",
