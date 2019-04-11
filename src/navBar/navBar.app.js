@@ -11,7 +11,7 @@ const items = [
 const reactLifecycles = singleSpaReact({
   React,
   ReactDOM,
-  rootComponent: () => <NavBarWrapper items={items} />,
+  rootComponent: () => <NavBarWrapper title="Micro Frontends" items={items} />,
   domElementGetter,
 });
 
