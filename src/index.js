@@ -5,22 +5,17 @@ import {registerApplication, start} from 'single-spa';
 const pathname = window.location.pathname;
 const baseUrl = /\/$/g.test(pathname) ? pathname : '/';
 
-switch(pathname) {
-  case `${baseUrl}tally`:
-    registerApplication(
-      'tally',
-      () => import('./tally/tally.app.js'),
-      () => location => location.pathname.startsWith(`${baseUrl}tally`)
-    );
-  break;
-  default:
-    registerApplication(
-      'errorPage',
-      () => import('./errorPage/errorPage.app.js'),
-      () => location => location.pathname.startsWith(`${baseUrl}404`)
-    );
-  break;
-}
+registerApplication(
+  'tally',
+  () => import('./tally/tally.app.js'),
+  location => location.pathname.startsWith(`${baseUrl}tally`)
+);
+
+registerApplication(
+  'errorPage',
+  () => import('./errorPage/errorPage.app.js'),
+  location => location.pathname.startsWith(`${baseUrl}404`)
+);
 
 registerApplication(
   'navBar',
