@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import singleSpaReact from 'single-spa-react';
-import TallyWrapper from './TallyWrapper';
+import NavBarWrapper from './NavBarWrapper';
+
+const items = [
+  { "active": false, "label": "Demo", "href": `https://single-spa.js.org/` },
+  { "active": false, "label": "Video", "href": `https://youtu.be/L4jqow7NTVg` }
+];
 
 const reactLifecycles = singleSpaReact({
   React,
   ReactDOM,
-  rootComponent: TallyWrapper,
+  rootComponent: () => <NavBarWrapper items={items} />,
   domElementGetter,
 });
 
@@ -24,5 +29,5 @@ export const unmount = [
 
 function domElementGetter() {
   // This is where single-spa will mount our application
-  return document.getElementById("tally");
+  return document.getElementById("navBar");
 }

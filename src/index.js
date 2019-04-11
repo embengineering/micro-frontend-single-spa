@@ -3,8 +3,14 @@ import * as serviceWorker from './serviceWorker';
 import {registerApplication, start} from 'single-spa';
 
 registerApplication(
-  'root',
+  'tally',
   () => import('./tally/tally.app.js'),
+  () => true
+);
+
+registerApplication(
+  'navBar',
+  () => import('./navBar/navBar.app.js'),
   () => true
 );
 
