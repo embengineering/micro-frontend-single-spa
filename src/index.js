@@ -2,11 +2,25 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import {registerApplication, start} from 'single-spa';
 
-registerApplication(
-  'tally',
-  () => import('./tally/tally.app.js'),
-  () => true
-);
+const location = window.location;
+const baseUrl = /\/$/g.test(location.pathname) ? '/' : location.pathname;
+
+switch(location.pathname) {
+  case '/tally':
+    registerApplication(
+      'tally',
+      () => import('./tally/tally.app.js'),
+      () => location => location.pathname.startsWith(`${baseUrl}tally`)
+    );
+  break;
+  default:
+    registerApplication(
+      'errorPage',
+      () => import('./errorPage/errorPage.app.js'),
+      () => location => location.pathname.startsWith(`${baseUrl}404`)
+    );
+  break;
+}
 
 registerApplication(
   'navBar',

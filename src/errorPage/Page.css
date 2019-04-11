@@ -1,0 +1,29 @@
+.intro-header {
+  text-align: center;
+  color: #f8f8f8;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url(https://picsum.photos/g/1000/500/?random) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.intro-message > h1 {
+  margin: 0;
+  padding-top: 10px;
+  text-shadow: 1px 1px 6px rgba(0,0,0,1);
+  font-size: 4em;
+}
+
+@media(max-width:767px) {
+  .intro-message {
+      padding-bottom: 15%;
+  }
+
+  .intro-message > h1 {
+      font-size: 3em;
+  }
+}

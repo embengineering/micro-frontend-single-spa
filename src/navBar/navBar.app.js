@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import singleSpaReact from 'single-spa-react';
 import NavBarWrapper from './NavBarWrapper';
 
+const location = window.location;
+const baseUrl = /\/$/g.test(location.pathname) ? '' : '/';
+
 const items = [
-  { "active": false, "label": "Demo", "href": `https://single-spa.js.org/` },
-  { "active": false, "label": "Video", "href": `https://youtu.be/L4jqow7NTVg` }
+  { "active": false, "label": "Tally", "href": `${baseUrl}tally` },
+  { "active": false, "label": "404", "href": `${baseUrl}404` }
 ];
 
 const reactLifecycles = singleSpaReact({

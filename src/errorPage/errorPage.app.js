@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import singleSpaReact from 'single-spa-react';
-import TallyWrapper from './TallyWrapper';
+import Page from './Page';
 
 const reactLifecycles = singleSpaReact({
   React,
   ReactDOM,
-  rootComponent: TallyWrapper,
+  rootComponent: () => <Page title="404 Not Found" />,
   domElementGetter,
 });
 
