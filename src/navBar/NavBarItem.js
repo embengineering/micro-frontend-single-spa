@@ -1,4 +1,5 @@
 import React from 'react';
+import {navigateToUrl} from 'single-spa';
 
 const NavBarItem = ({
   active,
@@ -8,7 +9,7 @@ const NavBarItem = ({
   const activeClass = active ? 'active' : '';
 
   return <li className={`nav-item ${activeClass}`}>
-    <a className="nav-link" href={href}>{label}</a>
+    <a className="nav-link" href={href} onClick={navigateToUrl}>{label}</a>
   </li>
 };
 
