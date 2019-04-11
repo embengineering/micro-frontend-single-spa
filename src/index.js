@@ -2,11 +2,11 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import {registerApplication, start} from 'single-spa';
 
-const location = window.location;
-const baseUrl = /\/$/g.test(location.pathname) ? '/' : location.pathname;
+const pathname = window.location.pathname;
+const baseUrl = /\/$/g.test(pathname) ? pathname : '/';
 
-switch(location.pathname) {
-  case '/tally':
+switch(pathname) {
+  case `${baseUrl}tally`:
     registerApplication(
       'tally',
       () => import('./tally/tally.app.js'),

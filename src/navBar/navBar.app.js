@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import singleSpaReact from 'single-spa-react';
 import NavBarWrapper from './NavBarWrapper';
 
-const location = window.location;
-const baseUrl = /\/$/g.test(location.pathname) ? '' : '/';
+const pathname = window.location.pathname;
+const baseUrl = /\/$/g.test(pathname) ? pathname : '/';
 
 const items = [
   { "active": false, "label": "Tally", "href": `${baseUrl}tally` },
