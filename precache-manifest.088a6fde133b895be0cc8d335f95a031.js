@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "1a261eac179dbaa21d8e",
-    "url": "/micro-frontend-single-spa/static/js/runtime~main.538b7171.js"
+    "revision": "21d4e9395b1f3e859f52",
+    "url": "/micro-frontend-single-spa/static/js/runtime~main.3d369674.js"
   },
   {
     "revision": "bd93e07eeb649664ae76",
     "url": "/micro-frontend-single-spa/static/js/main.57c85499.chunk.js"
   },
   {
-    "revision": "0ab0c5773ad03b81a4e3",
-    "url": "/micro-frontend-single-spa/static/js/4.ba539282.chunk.js"
+    "revision": "1bf68e2ed204971f5ccf",
+    "url": "/micro-frontend-single-spa/static/js/4.03ae22cf.chunk.js"
   },
   {
     "revision": "5fc68d7882d6f346667e",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/micro-frontend-single-spa/static/css/main.cb86fd54.chunk.css"
   },
   {
-    "revision": "8d60ad7813f9a9b5bca02e400afca11b",
+    "revision": "367b39432a8ebf72e1afa47149072cf2",
     "url": "/micro-frontend-single-spa/index.html"
   }
 ];
